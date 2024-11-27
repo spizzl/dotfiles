@@ -17,15 +17,6 @@ return {
         config = function()
             local cmp = require("cmp")
             require("luasnip.loaders.from_vscode").lazy_load()
-			
-			cmp.event:on("menu_openend", function()
-				vim.b.copilot_suggestion_hidden = true
-			end)
-
-			cmp.event:on("menu_closed", function()
-				vim.b.copilot_suggestion_hidden = false
-			end)
-
             cmp.setup({
                 snippet = {
                     expand = function(args)
