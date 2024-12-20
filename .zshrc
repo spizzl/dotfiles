@@ -14,12 +14,14 @@ export BROWSER='firefox'
 export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
 export SUDO_PROMPT="Deploying root access for %u. Password pls: "
 export BAT_THEME="base16"
+export DOTNET_ROOT=$HOME/.dotnet
 
 if [ -d "$HOME/.local/bin" ] ;
   then PATH="$HOME/.local/bin:$PATH"
 fi
 
-PATH="$HOME/.config/i3:$PATH"
+PATH="$HOME/.config/i3:$DOTNET_ROOT:$DOTNET_ROOT/tools:$PATH"
+PATH="$HOME/go/bin:$PATH"
 
 #  ┬  ┌─┐┌─┐┌┬┐  ┌─┐┌┐┌┌─┐┬┌┐┌┌─┐
 #  │  │ │├─┤ ││  ├┤ ││││ ┬││││├┤

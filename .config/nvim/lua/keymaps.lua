@@ -11,8 +11,6 @@ map("v", "K", ":m '<-1<CR>gv=gv")
 -- ESC pressing jk
 map("i", "jk", "<ESC>", { desc = "jk to esc", noremap = true })
 
--- Quit Neovim
-map("n", "<leader>q", ":q<cr>", { desc = "Quit Neovim", remap = true })
 
 -- Increment/decrement
 map("n", "+", "<C-a>", { desc = "Increment numbers", noremap = true })
@@ -58,16 +56,19 @@ map("n", "<C-S-Left>", ":vertical resize +2<CR>")
 map("n", "<C-S-Right>", ":vertical resize -2<CR>")
 
 --Close window
-map("n", "<C-q>", "<c-w>c", { desc= "Closes Window"})
+map("n", "<leader>q", "<c-w>c", { desc= "Closes Window"})
 
 -- Barbar
 map("n", "<Tab>", ":BufferNext<CR>", { desc = "Move to next tab", noremap = true })
 map("n", "<S-Tab>", ":BufferPrevious<CR>", { desc = "Move to previous tab", noremap = true })
 map("n", "<leader>x", ":BufferClose<CR>", { desc = "Buffer close", noremap = true })
 map("n", "<A-p>", ":BufferPin<CR>", { desc = "Pin buffer", noremap = true })
+map("n", "<leader><Left>", ":BufferPrevious<CR>", { desc = "Move to previous Buffer", noremap = true })
+map("n", "<leader><Right>", ":BufferNext<CR>", { desc = "Move to next Buffer", noremap = true})
 
 -- Comments
 map({"n", "v"}, "<leader>co", ":CommentToggle<cr>", { desc = "CommentToggle", noremap = true })
+
 
 -- Telescope
 map("n", "<leader>ff", "<cmd>Telescope find_files<cr>", { desc = "Telescope find_files", noremap = true })

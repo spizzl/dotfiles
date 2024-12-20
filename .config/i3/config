@@ -74,6 +74,9 @@ bindsym $mod+r exec --no-startup-id ranger
 # Open PowerMenu
 bindsym $mod+shift+q exec $HOME/.config/i3/PowerMenu
 
+#Open Redshift Menu
+bindsym $mod+shift+y exec $HOME/.config/i3/Redshift
+
 # start dmenu (a program launcher)
 bindsym $mod+space exec "rofi -show drun -theme $HOME/.config/rofi/Launcher.rasi" 
 # A more modern dmenu replacement is rofi:

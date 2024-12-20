@@ -1,4 +1,4 @@
- #!/bin/bash
+#!/bin/bash
 
 out=$(ip addr | grep tun)
 
