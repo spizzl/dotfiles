@@ -15,6 +15,11 @@ return {
 						require("telescope.themes").get_dropdown({}),
 					},
 				},
+				pickers = {
+					find_files = {
+						hidden = true
+					},
+				},
 				--style = "onedark"
 			})
 			require("telescope").load_extension("ui-select")

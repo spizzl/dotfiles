@@ -69,6 +69,10 @@ map("n", "<leader><Right>", ":BufferNext<CR>", { desc = "Move to next Buffer", n
 -- Comments
 map({"n", "v"}, "<leader>co", ":CommentToggle<cr>", { desc = "CommentToggle", noremap = true })
 
+map("n", "<leader>ccc", ":let g:copilot_enabled = 0<CR>", {desc = "Disable Copilot", noremap = true})
+
+
+
 
 -- Telescope
 map("n", "<leader>ff", "<cmd>Telescope find_files<cr>", { desc = "Telescope find_files", noremap = true })
