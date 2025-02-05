@@ -1,3 +1,6 @@
+#UNDER CONSTRUCTION!
+##For my personal use only at the moment
+
 ##Keybindings
 Left: H
 Up: J
