@@ -1,6 +1,5 @@
 return {
   "zbirenbaum/copilot.lua",
-	cmd = "Cpt",	
 	event = "InsertEnter",
   config = function()
     require('copilot').setup({
@@ -13,7 +12,7 @@ return {
       accept = "<CR>",
       refresh = "gr",
       open = "<M-CR>"
-    },
+    },	
     layout = {
       position = "bottom", -- | top | left | right
       ratio = 0.4
