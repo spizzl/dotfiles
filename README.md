@@ -1,7 +1,7 @@
-#UNDER CONSTRUCTION!
-##For my personal use only at the moment
+# UNDER CONSTRUCTION!
+## For my personal use only at the moment
 
-##Keybindings
+## Keybindings
 Left: H
 Up: J
 Right: K
