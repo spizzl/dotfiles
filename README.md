@@ -1,5 +1,6 @@
 # UNDER CONSTRUCTION!
 ## For my personal use only at the moment
+installscript update soon
 
 ## Keybindings
 Left: H
