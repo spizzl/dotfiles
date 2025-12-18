@@ -11,7 +11,7 @@ Down: L
 Quit: Mod1+q
 Horizontal Split: Mod1+b
 Vertical Split: Mod1+v
-
+c
 Modes:
 Fullscreen Mod1+f
 Stacked: Mod1+s 
