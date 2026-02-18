@@ -1,5 +1,5 @@
 # UNDER CONSTRUCTION!
-## For my personal use only at the moment
+## For my personal use only at the moment!
 
 no usable as of rihht now.
 installscript update soon
